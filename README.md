@@ -10,6 +10,7 @@ To start this run this jupyter notebook.
   2. **Text Splitting**: Chunking Text using `RecursiveCharacterTextSplitter` from Langchain.
   3. **Vector Embedding**: Generating vector embeddings using `HuggingFace Embeddings`.
   4. **LLM Implementation**: Finally using `FAISS DB` with Open Source `Llama 2-7b-chat-hf`.
+
 2-> **With History Aware**
   1. **Data Loading**: Utilizing `PyPDFLoader` for reading PDFs.
   2. **Text Splitting**: Chunking Text using `RecursiveCharacterTextSplitter` from Langchain.
