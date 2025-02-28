@@ -5,12 +5,16 @@ This project demonstrates the process of creating a chatbot that leverages inter
 
 To start this run this jupyter notebook.
 ### Architecture
-
-1. **Data Loading**: Utilizing `PyPDFLoader` for reading PDFs.
-2. **Text Splitting**: Chunking Text using `RecursiveCharacterTextSplitter` from Langchain.
-3. **Vector Embedding**: Generating vector embeddings using `HuggingFace Embeddings`.
-4. **LLM Implementation**: Finally using `FAISS DB` with Open Source `Llama 2-7b-chat-hf`.
-
+1-> **Without History Aware**
+  1. **Data Loading**: Utilizing `PyPDFLoader` for reading PDFs.
+  2. **Text Splitting**: Chunking Text using `RecursiveCharacterTextSplitter` from Langchain.
+  3. **Vector Embedding**: Generating vector embeddings using `HuggingFace Embeddings`.
+  4. **LLM Implementation**: Finally using `FAISS DB` with Open Source `Llama 2-7b-chat-hf`.
+2-> **With History Aware**
+  1. **Data Loading**: Utilizing `PyPDFLoader` for reading PDFs.
+  2. **Text Splitting**: Chunking Text using `RecursiveCharacterTextSplitter` from Langchain.
+  3. **Vector Embedding**: Generating vector embeddings using `HuggingFace Embeddings`.
+  4. **LLM Implementation**: Finally using `FAISS DB` with `Groq API`.
 ### Tools and Libraries Used
 
 - Jupyter Notebook: For interactive development and demonstrations.
